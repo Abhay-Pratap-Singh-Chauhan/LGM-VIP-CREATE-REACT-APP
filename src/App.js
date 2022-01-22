@@ -1,11 +1,13 @@
-import React from 'react'
-import Resturant from "./component/basics/Resturant"
-const App = () => {
+import './App.css';
+import "./MainPage"
+import MainPage from './MainPage';
+
+function App() {
   return (
-    <Resturant/>
-  )
+    <div>
+    <MainPage/>
+    </div>
+  );
 }
 
-export default App
-
-
+export default App;
